@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohe - Architecture Firm</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+        <nav class="navbar">
+            <div class="logo">Rohe</div>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Let’s Build a Better World Together</h1>
+        <button>Check our projects!</button>
+    </div>
+
+    <!-- About Section -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="" alt="About Image" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="" alt="About Image" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <h2 class="section-title">About our company</h2>
+                <p>Change the way you live life, closer to nature. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dig in Section -->
+    <div class="dig-in">
+        <h1>DIG IN</h1>
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.</p>
+        <button>Gallery</button>
+    </div>
+
+
+    <!-- Services Section -->
+    <div class="services container">
+        <h2 class="section-title">Our Services</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="service-card">
+                    <h5>Sketching and Planning</h5>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="service-card">
+                    <h5>Process</h5>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="service-card">
+                    <h5>Building</h5>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="service-card">
+                    <h5>Connect with Nature</h5>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2022 Rohe | Privacy Policy</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
